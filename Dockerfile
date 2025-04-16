@@ -1,8 +1,11 @@
-FROM eclipse-temurin:17-jdk
+FROM eclipse-temurin:23-jdk
 
 WORKDIR /app
 
 COPY . .
+
+# Ensure mvnw is executable
+RUN chmod +x ./mvnw
 
 # If using Maven
 RUN ./mvnw package -DskipTests
