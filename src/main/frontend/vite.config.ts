@@ -10,10 +10,16 @@ export default defineConfig({
     postcss: "./postcss.config.js",
   },
   server: {
+    host: "0.0.0.0",
     port: 5173,
+    hmr: {
+      host: "localhost", // Browser should connect to localhost (host machine)
+      port: 5173, // WebSocket port
+      protocol: "ws", // Use ws (not wss) for development
+    },
     proxy: {
       "/api": {
-        target: "http://localhost:8080",
+        target: "http://backend:8080",
         changeOrigin: true,
         secure: false,
       },
