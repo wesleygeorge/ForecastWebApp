@@ -6,9 +6,9 @@ A full-stack web application for retrieving weather forecasts and managing user 
 
 ![Search and Current Weather](images/forecast-ui1.png "Search and Current Weather")
 
-![Hourly Forecast](HowWasTheWeather/images/forecast-ui2.png "Hourly Forecast")
+![Hourly Forecast](images/forecast-ui2.png "Hourly Forecast")
 
-![Daily Forecast with Clickable Hourly Breakdown](HowWasTheWeather/images/forecast-ui3.png "Daily Forecast with Clickable Hourly Breakdown")
+![Daily Forecast with Clickable Hourly Breakdown](images/forecast-ui3.png "Daily Forecast with Clickable Hourly Breakdown")
 
 ## Features
 
