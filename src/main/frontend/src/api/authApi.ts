@@ -37,7 +37,7 @@ export const authApi = {
   signup: async (email: string, password: string) => {
     console.log("Starting signup... email:", email, "password:", password);
     try {
-      const response = await axios.post("/api/signup", { email, password }); // tried api instead of axios...
+      const response = await axios.post("/api/signup", { email, password });
       console.log("Signup response:", response);
       const token = response.data.token;
       localStorage.setItem("token", token);
