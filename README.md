@@ -4,7 +4,7 @@ A full-stack web application for retrieving weather forecasts and managing user 
 
 **Live Demo**: [frontend-howwastheweather.onrender.com](https://frontend-howwastheweather.onrender.com)
 
-![Search and Current Weather](HowWasTheWeather/images/forecast-ui1.png "Search and Current Weather")
+![Search and Current Weather](images/forecast-ui1.png "Search and Current Weather")
 
 ![Hourly Forecast](HowWasTheWeather/images/forecast-ui2.png "Hourly Forecast")
 
